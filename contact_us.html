@@ -6,6 +6,43 @@
     <title>Mashup News| Contact Us</title>
 </head>
 <body>
-    
+    <main>
+        <h1>Contact Us</h1>
+        <form action="contact_us.html" method="get">
+            <fieldset>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                
+                <div>
+                    <label for="phone">Mobile No</label>
+                    <input type="tel" name="phone" id="phone">
+                </div>
+                
+                <div>
+                    <label for="type">Choose your query type</label>
+                    <select name="type" id="type">
+                        <option value="sales">sales</option>
+                        <option value="service">service</option>
+                        <option value="enquiry">enquiry</option>
+                        <option value="advertisement">advertisement</option>
+                        <option value="complaint">complaint</option>
+                    </select>
+
+                </div>
+                
+                <div>
+                    <label for="Description">Please Enter your question</label>
+                    <textarea name="Description" id="Description" cols="15" rows="5"></textarea>
+                </div>
+                
+                <div>
+                    <input type="submit">
+                </div>
+                
+            </fieldset>
+        </form>
+    </main>
 </body>
 </html>
